@@ -1,0 +1,28 @@
+{
+  "name": "whats-next",
+  "version": "1.0.0",
+  "description": "Shared Todo Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongregtom/whats-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jongregtom/whats-next/issues"
+  },
+  "homepage": "https://github.com/jongregtom/whats-next#readme",
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

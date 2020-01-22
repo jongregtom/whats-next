@@ -1,7 +1,8 @@
 const dotenv = require('dotenv')
 dotenv.config()
+const withSass = require("@zeit/next-sass");
 
-module.exports = {
+const nextConfig = {
   env: {
     AUTH0_DOMAIN: process.env.AUTH0_DOMAIN,
     AUTH0_CLIENT_ID: process.env.AUTH0_CLIENT_ID,
@@ -24,3 +25,5 @@ module.exports = {
       }
    }
 }
+
+module.exports = nextConfig;
